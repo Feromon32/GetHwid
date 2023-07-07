@@ -4,23 +4,23 @@ Simple script for get machine hwid
 
 ![GIF 28 06 2023 2-53-31](https://github.com/Feromon32/GetHwid/assets/65503900/e7e3c482-e9b0-4f1b-9181-03ad3619e7a6)
 
-* 🧹 `system("cls");` - Очищает экран консоли.
-* 🖨️ `_tprintf(HwProfInfo.szHwProfileGuid);` - Выводит GUID текущего аппаратного профиля.
-* 💽 `system("wmic path win32_physicalmedia get SerialNumber");` - Выводит серийный номер физического носителя.
-* 🔑 `system("wmic csproduct get UUID");` - Выводит UUID продукта компьютера.
-* 🖥️ `system("wmic diskdrive get SerialNumber");` - Выводит серийный номер жесткого диска.
-* 📟 `system("wmic baseboard get SerialNumber");` - Выводит серийный номер материнской платы.
-* 🌐 `system("wmic bios get SerialNumber");` - Выводит серийный номер BIOS.
-* 💻 `system("wmic cpu get ProcessorId");` - Выводит идентификатор процессора.
-* 🧠 `system("wmic memorychip get SerialNumber");` - Выводит серийный номер модулей памяти.
-* 🖥️ `system("wmic os get SerialNumber");` - Выводит серийный номер операционной системы.
-* 🛠️ `system("wmic qfe get HotFixID");` - Выводит идентификаторы установленных обновлений.
-* 🚀 `system("wmic service get Name");` - Выводит имена служб.
-* 📂 `system("wmic share get Name");` - Выводит имена общих ресурсов.
-* 💾 `system("wmic volume get SerialNumber");` - Выводит серийный номер томов.
-* 💿 `system("wmic logicaldisk get VolumeSerialNumber");` - Выводит серийный номер логических дисков.
-* 🌐 `system("wmic nic get MACAddress");` - Выводит MAC-адреса сетевых адаптеров.
-* 🔊 `system("wmic sounddev get Name");` - Выводит имена звуковых устройств.
-* ⌚ `system("wmic timezone get Caption");` - Выводит названия часовых поясов.
-* ⏸️ `system("pause>nul");` - Ожидает нажатия клавиши.
+* 🧹 `system("cls");` - Clears console screen.
+* 🖨️ `_tprintf(HwProfInfo.szHwProfileGuid);` - Outputs GUID of the current equipment profile.
+* 💽 `system("wmic path win32_physicalmedia get SerialNumber");` - Outputs the serial number of the physical media.
+* 🔑 `system("wmic csproduct get UUID");` - Outputs the UUID of the computer product.
+* 🖥️ `system("wmic diskdrive get SerialNumber");` - Outputs the serial number of the hard drive.
+* 📟 `system("wmic baseboard get SerialNumber");` - Outputs the serial number of the motherboard.
+* 🌐 `system("wmic bios get SerialNumber");` - Outputs BIOS serial number.
+* 💻 `system("wmic cpu get ProcessorId");` - Outputs processor ID.
+* 🧠 `system("wmic memorychip get SerialNumber");` ` - Outputs memory module serial number.
+* 🖥️ `system("wmic os get SerialNumber");` - Outputs serial number of operating system.
+* 🛠️ `system("wmic qfe get HotFixID");` - Outputs IDs of installed updates.
+* 🚀 `system("wmic service get Name");` - Outputs service names.
+* 📂 `system("wmic share get Name");` - Outputs shared resource names.
+* 💾 `system("wmic volume get SerialNumber");` - Outputs volume serial number.
+* 💿 `system("wmic logicaldisk get VolumeSerialNumber");` - Outputs the serial number of logical disks.
+* 🌐 `system("wmic nic get MACAddress");` - Outputs the MAC addresses of the network adapters.
+* 🔊 `system("wmic sounddev get Name");` - Outputs names of sound devices.
+* ⌚ `system("wmic timezone get Caption");` - Displays the time zone.
+* ⏸️ `system("pause>nul");` - Waiting for key press.
 
